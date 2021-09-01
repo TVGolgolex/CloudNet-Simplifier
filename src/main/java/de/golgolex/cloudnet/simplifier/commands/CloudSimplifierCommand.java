@@ -122,7 +122,7 @@ public class CloudSimplifierCommand implements CommandExecutor, TabCompleter {
     }
 
     private void sendUsage(ISimplifierUser iSimplifierUser) {
-        final PluginCommand pluginCommand = CloudSimplifier.getSimplifier().getBukkitClayCloudDriver()
+        final PluginCommand pluginCommand = CloudSimplifier.getSimplifier().getBukkitCloudSimplifier()
                 .getPlugin().getServer().getPluginCommand("cloudsimplifier");
 
         iSimplifierUser.sendChatMessages(
@@ -131,6 +131,7 @@ public class CloudSimplifierCommand implements CommandExecutor, TabCompleter {
                 CloudSimplifier.getSimplifier().getCloudPrefix() + "§e/" + pluginCommand.getName() + " setSlots <Slots>",
                 CloudSimplifier.getSimplifier().getCloudPrefix() + "",
                 CloudSimplifier.getSimplifier().getCloudPrefix() + "§7Permission§8: " + pluginCommand.getPermission(),
+                CloudSimplifier.getSimplifier().getCloudPrefix() + "§7Aliases§8: " + pluginCommand.getAliases().stream(),
                 CloudSimplifier.getSimplifier().getCloudPrefix() + ""
         );
     }

@@ -39,14 +39,13 @@ import de.golgolex.cloudnet.simplifier.objectives.message.MessagingBuilder;
 public abstract class CloudSimplifier {
 
     private static volatile CloudSimplifier simplifier;
-
     private final String cloudPrefix;
     private final CloudPlayerManager cloudPlayerManager;
     private final SimplifierUserCache clayDriverUsers;
     private final CloudPermissionManager cloudPermissionManager;
 
     public CloudSimplifier() {
-        simplifier = this;
+        CloudSimplifier.simplifier = this;
         this.cloudPrefix = "§8[§eCloud§8] §7";
         this.cloudPlayerManager = new CloudPlayerManager(CloudNetDriver.getInstance().getServicesRegistry().getFirstService(IPlayerManager.class));
         this.clayDriverUsers = new SimplifierUserCache();
@@ -98,11 +97,11 @@ public abstract class CloudSimplifier {
         return cloudPlayerManager;
     }
 
-    public BukkitCloudSimplifier getBukkitClayCloudDriver() {
+    public BukkitCloudSimplifier getBukkitCloudSimplifier() {
         return (BukkitCloudSimplifier) CloudSimplifier.simplifier;
     }
 
-    public ProxiedCloudSimplifier getProxiedClayCloudDriver() {
+    public ProxiedCloudSimplifier getProxiedCloudSimplifier() {
         return (ProxiedCloudSimplifier) CloudSimplifier.simplifier;
     }
 }
