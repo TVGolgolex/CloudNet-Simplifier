@@ -1,4 +1,4 @@
-package de.golgolex.cloudnet.simplifier.objectives.claydriveruser;
+package de.golgolex.cloudnet.simplifier.objectives.user;
 
 /*
 ===========================================================================================================================

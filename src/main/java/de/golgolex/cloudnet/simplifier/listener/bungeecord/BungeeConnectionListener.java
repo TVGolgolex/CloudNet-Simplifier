@@ -25,8 +25,8 @@ package de.golgolex.cloudnet.simplifier.listener.bungeecord;
 */
 
 import de.golgolex.cloudnet.simplifier.CloudSimplifier;
-import de.golgolex.cloudnet.simplifier.objectives.claydriveruser.ISimplifierUser;
-import de.golgolex.cloudnet.simplifier.objectives.claydriveruser.SimplifierUser;
+import de.golgolex.cloudnet.simplifier.objectives.user.ISimplifierUser;
+import de.golgolex.cloudnet.simplifier.objectives.user.SimplifierUser;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.event.PlayerDisconnectEvent;
 import net.md_5.bungee.api.event.PostLoginEvent;

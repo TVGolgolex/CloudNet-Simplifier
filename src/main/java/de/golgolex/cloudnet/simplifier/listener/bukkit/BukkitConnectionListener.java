@@ -25,8 +25,8 @@ package de.golgolex.cloudnet.simplifier.listener.bukkit;
 */
 
 import de.golgolex.cloudnet.simplifier.CloudSimplifier;
-import de.golgolex.cloudnet.simplifier.objectives.claydriveruser.ISimplifierUser;
-import de.golgolex.cloudnet.simplifier.objectives.claydriveruser.SimplifierUser;
+import de.golgolex.cloudnet.simplifier.objectives.user.ISimplifierUser;
+import de.golgolex.cloudnet.simplifier.objectives.user.SimplifierUser;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

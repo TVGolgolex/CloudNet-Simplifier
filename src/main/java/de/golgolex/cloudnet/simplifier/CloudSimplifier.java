@@ -33,7 +33,7 @@ import de.golgolex.cloudnet.simplifier.manager.cloudplayer.CloudPlayerManager;
 import de.golgolex.cloudnet.simplifier.manager.permission.CloudPermissionManager;
 import de.golgolex.cloudnet.simplifier.manager.proxy.CloudProxyManager;
 import de.golgolex.cloudnet.simplifier.manager.server.CloudServerManager;
-import de.golgolex.cloudnet.simplifier.objectives.claydriveruser.SimplifierUserCache;
+import de.golgolex.cloudnet.simplifier.objectives.user.SimplifierUserCache;
 import de.golgolex.cloudnet.simplifier.objectives.message.MessagingBuilder;
 
 public abstract class CloudSimplifier {

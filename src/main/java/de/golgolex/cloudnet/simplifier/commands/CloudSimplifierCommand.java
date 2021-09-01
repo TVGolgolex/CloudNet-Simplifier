@@ -27,13 +27,12 @@ package de.golgolex.cloudnet.simplifier.commands;
 import de.dytanic.cloudnet.common.document.gson.JsonDocument;
 import de.dytanic.cloudnet.driver.channel.ChannelMessageTarget;
 import de.golgolex.cloudnet.simplifier.CloudSimplifier;
-import de.golgolex.cloudnet.simplifier.objectives.claydriveruser.ISimplifierUser;
+import de.golgolex.cloudnet.simplifier.objectives.user.ISimplifierUser;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.command.TabCompleter;
-import org.bukkit.entity.Player;
 
 import java.util.Arrays;
 import java.util.Collections;
