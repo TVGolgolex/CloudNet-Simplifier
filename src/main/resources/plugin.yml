@@ -1,0 +1,9 @@
+name: Bukkit-CloudNet-Simplifier
+version: 1.0
+author: Golgolex
+main: de.golgolex.cloudnet.simplifier.bootstraps.bukkit.BukkitBootstrap
+
+commands:
+  cloudsimplifier:
+    aliases:
+      - clouds

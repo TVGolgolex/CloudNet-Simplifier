@@ -1,0 +1,4 @@
+name: Proxied-CloudNet-Simplifier
+version: 1.0
+author: Golgolex
+main: de.golgolex.cloudnet.simplifier.bootstraps.bungeecord.ProxyBootstrap
